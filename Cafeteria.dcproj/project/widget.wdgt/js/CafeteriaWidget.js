@@ -92,7 +92,7 @@ CafeteriaWidget.prototype.updateMenu = function(menu) {
                 row = $('<div class="row"></div>');
                 dayUI.append(row);
             }
-            var descriptionUI = $('<div class="cell description"></div>').text(food.description);
+            var descriptionUI = $('<div class="cell description"></div>').text(food.description).attr('lang', 'de');
             row.append(descriptionUI);
             
             var priceUI = $('<div class="cell price"></div>').text(food.prices[cafeteriaWidget.priceSettings] + '€');

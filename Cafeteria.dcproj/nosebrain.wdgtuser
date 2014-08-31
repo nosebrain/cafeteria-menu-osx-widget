@@ -63,7 +63,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>60 44 1620 984 0 0 1680 1028 </string>
+	<string>110 44 1620 984 0 0 1680 1028 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -95,10 +95,15 @@
 			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array/>
+		<array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>back</string>
+			<string>front</string>
 		</array>
 	</dict>
 </dict>

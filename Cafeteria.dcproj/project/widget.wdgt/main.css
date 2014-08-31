@@ -73,6 +73,7 @@ h1 {
     padding: 3px;
     border-right: none;
     vertical-align: middle;
+    -webkit-hyphens: auto;
 }
 
 .cell.price {
