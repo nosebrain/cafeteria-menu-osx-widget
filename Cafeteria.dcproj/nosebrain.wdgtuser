@@ -4,17 +4,23 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
-		<key>widget.wdgt/js/CafeteriaWidget.js:15</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:17</key>
 		<string>-CafeteriaWidget</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:16</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:18</key>
 		<string>-CafeteriaWidget</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:31</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:33</key>
 		<string>-CafeteriaWidget</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:34</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:36</key>
 		<string>-gotInformation</string>
+		<key>widget.wdgt/js/CafeteriaWidget.js:61</key>
+		<string>-savePrefs</string>
+		<key>widget.wdgt/js/CafeteriaWidget.js:63</key>
+		<string>-savePrefs</string>
+		<key>widget.wdgt/js/CafeteriaWidget.js:98</key>
+		<string>-updateMenu</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{1120, 244}</string>
+	<string>{687, 258}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -44,6 +50,8 @@
 	</dict>
 	<key>Design time language</key>
 	<string>en.lproj</string>
+	<key>EvaluatorFrame</key>
+	<string>676 184 479 226 0 0 1680 1028 </string>
 	<key>MainSplitViewGeometry</key>
 	<dict>
 		<key>_indexOfCollapsedView</key>
@@ -90,7 +98,7 @@
 		<array/>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>front</string>
+			<string>back</string>
 		</array>
 	</dict>
 </dict>

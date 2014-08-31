@@ -51,6 +51,36 @@ h1 {
     cursor: pointer;
 }
 
+.day {
+    display: table;
+    border-collapse: collapse;
+    font-size: 80%;
+}
+
+.row {
+    display:table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid black;
+}
+
+.cell.description {
+    width: 120px;
+    height: 75px;
+    text-align: center;
+    padding: 3px;
+    border-right: none;
+    vertical-align: middle;
+}
+
+.cell.price {
+    width: 20px;
+    border-left: none;
+    -webkit-transform: rotate(-90deg) translate(0px, 30px);
+}
+
 #done {
     position: absolute;
     right: 14px;
