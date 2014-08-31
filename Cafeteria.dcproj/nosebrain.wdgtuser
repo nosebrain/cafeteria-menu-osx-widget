@@ -51,7 +51,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>186 172 1004 738 0 0 1680 1028 </string>
+	<string>186 288 1004 738 0 0 1680 1028 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
