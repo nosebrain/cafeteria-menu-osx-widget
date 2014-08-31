@@ -108,12 +108,23 @@ CafeteriaWidget.prototype.updateMenu = function(menu) {
         }
     });
     
+    $('#infoSidebar').data('date', menu.weekStart);
     this.showCurrentDay();
 }
 
 CafeteriaWidget.prototype.showCurrentDay = function() {
     $('.day').hide();
     $('.day').first().show(); // TODO:
+    var splittedDate = $('#infoSidebar').data('date').split('.');
+    var startDate = new Date();
+    startDate.setFullYear(splittedDate[2]);
+    startDate.setMonth(splittedDate[1] - 1, splittedDate[0]);
+    
+    // TODO: add time
+    
+    $('#infoSidebar').text(startDate.format('ddd') + ", " + startDate.format('dd') + "." + startDate.format('mm') + "." + startDate.format('yy'));
+    
+    alert(startDate);
 }
 
 CafeteriaWidget.prototype.prepareSettings = function() {
