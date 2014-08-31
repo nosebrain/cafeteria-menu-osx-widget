@@ -10,6 +10,7 @@
     <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/frameworks/Pref.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/frameworks/jquery-2.1.1.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/CafeteriaUpdater.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/CafeteriaWidget.js" charset="utf-8"></script>
     <script type="text/javascript" src="main.js" charset="utf-8"></script>
 </head>
@@ -17,6 +18,12 @@
     <div id="front">
         <div id="header">
             <h1 id="cafeteria">Cafeteria</h1>
+        </div>
+        <div id="content">
+            <div id="infoSidebar">
+            </div>
+            <div id="menu">
+            </div>
         </div>
         <div class="apple-no-children" id="info" apple-part="com.apple.Dashcode.part.infobutton" apple-default-image-visibility="hidden"></div>
     </div>
@@ -30,6 +37,14 @@
         <div>
             <label for="cafeteriaPopup">Mensa</label><br />
             <select id="cafeteriaPopup" disabled></select>
+        </div>
+        <div>
+            <label for="pricePopup">Preis</label><br />
+            <select id="pricePopup">
+                <option value="0">Student</option>
+                <option value="1">Mitarbeiter</option>
+                <option value="2">Gast</option>
+            </select>
         </div>
     </div>
 </body>
