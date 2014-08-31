@@ -21,7 +21,7 @@
 	<key>CloseBoxInsetY</key>
 	<integer>7</integer>
 	<key>Height</key>
-	<integer>230</integer>
+	<integer>245</integer>
 	<key>MainHTML</key>
 	<string>main.html</string>
 	<key>Width</key>
