@@ -30,6 +30,7 @@ CafeteriaWidget.prototype.gotInformation = function(infos) {
 }
 
 CafeteriaWidget.prototype.prepareSettings = function() {
+    $("#loadingBack").hide();
     var uniPopup = $('#universityPopup');
     uniPopup.append($('<option></option>').attr('value', 'not_set').text("Bitte wählen ..."));
     for (unikey in this.infos) {
