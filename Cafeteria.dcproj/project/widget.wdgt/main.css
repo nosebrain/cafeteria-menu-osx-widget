@@ -37,7 +37,7 @@ body {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 210px;
+    height: 225px;
     padding: 10px 20px;
     color: rgb(241, 241, 241);
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
@@ -101,6 +101,30 @@ h1 {
     -webkit-transform: rotate(-90deg) translate(-77px, -75px);
 }
 
+#actionMenu {
+    padding: 0px;
+    margin: 0px;
+  list-style: none;
+  width: 90%;
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+}
+
+#actionMenu li {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border: 1px solid #F1F1F1;
+  margin: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#actionMenu li.active {
+  background-color: #F1F1F1;
+}
+
 #done {
     position: absolute;
     right: 14px;
@@ -123,6 +147,3 @@ h1 {
     bottom: auto;
     margin-top: 0px;
 }
-
-
-
