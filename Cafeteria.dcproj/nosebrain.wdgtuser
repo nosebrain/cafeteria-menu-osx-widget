@@ -4,9 +4,13 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
-		<key>widget.wdgt/js/CafeteriaWidget.js:12</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:24</key>
 		<string>-CafeteriaWidget</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:13</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:27</key>
+		<string>gotInformation</string>
+		<key>widget.wdgt/js/CafeteriaWidget.js:8</key>
+		<string>CafeteriaWidget</string>
+		<key>widget.wdgt/js/CafeteriaWidget.js:9</key>
 		<string>-CafeteriaWidget</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
@@ -21,8 +25,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {759, 402}}</string>
-			<string>{{0, 412}, {759, 284}}</string>
+			<string>{{0, 0}, {1375, 648}}</string>
+			<string>{{0, 658}, {1375, 284}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
@@ -46,12 +50,12 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {244, 717}}</string>
-			<string>{{245, 0}, {760, 717}}</string>
+			<string>{{0, 0}, {244, 963}}</string>
+			<string>{{245, 0}, {1376, 963}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>186 288 1004 738 0 0 1680 1028 </string>
+	<string>60 44 1620 984 0 0 1680 1028 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -62,8 +66,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 361}}</string>
-			<string>{{0, 371}, {246, 325}}</string>
+			<string>{{0, 0}, {246, 490.5}}</string>
+			<string>{{0, 500.5}, {246, 441.5}}</string>
 		</array>
 	</dict>
 	<key>Widget</key>
