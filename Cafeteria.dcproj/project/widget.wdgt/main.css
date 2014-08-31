@@ -10,37 +10,32 @@ body {
 
 #info {
     position: absolute;
-    right: 15px;
-    bottom: 18px;
+    right: 20px;
+    bottom: 20px;
     width: 13px;
     height: 13px;
 }
 
 #back {
     display: none;
+    width: auto;
     background-color: rgb(70, 70, 72);
     color: rgb(241, 241, 241);
-    height: 360px;
+    height: 225px;
     border-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    width: auto;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
     padding: 10px 20px;
 }
 
 #front {
     background-color: rgb(10, 50, 115);
-    border-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    height: 225px;
-    padding: 10px 20px;
     color: rgb(241, 241, 241);
+    height: 225px;
+    border-radius: 20px;
+    margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;
+    padding: 10px 20px;
 }
 
 h1 {
@@ -53,8 +48,9 @@ h1 {
 
 .day {
     display: table;
+    table-layout: fixed;
     border-collapse: collapse;
-    font-size: 80%;
+    font-size: 75%;
 }
 
 .row {
@@ -67,8 +63,11 @@ h1 {
 }
 
 .cell.description {
-    width: 120px;
+    max-width: 120px;
+    min-width: 120px;
     height: 75px;
+    max-height: 75px;
+    min-height: 75px;
     text-align: center;
     padding: 3px;
     border-right: none;
@@ -77,18 +76,21 @@ h1 {
 }
 
 .cell.price {
-    width: 20px;
+    max-width: 15px;
+    min-width: 15px;
     height: 75px;
+    max-height: 75px;
+    min-height: 75px;
     border-left: none;
     -webkit-transform: rotate(-90deg) translate(0px, 30px);
 }
 
 #menu {
     margin-top: -17px;
-    margin-left: 16px;
+    margin-left: 17px;
 }
 
-#infoSidebar {
+.infoSidebar {
     font-size: 90%;
     font-weight: bold;
     border: 1px solid black;
@@ -98,17 +100,17 @@ h1 {
     padding-bottom: 2px;
     padding-top: 2px;
     width: 163.5px;
-    -webkit-transform: rotate(-90deg) translate(-77px, -75px);
+    -webkit-transform: rotate(-90deg) translate(-94px, -93px);
 }
 
 #actionMenu {
     padding: 0px;
     margin: 0px;
-  list-style: none;
-  width: 90%;
-  position: absolute;
-  text-align: center;
-  bottom: 10px;
+    list-style: none;
+    width: 85%;
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
 }
 
 #actionMenu li {
