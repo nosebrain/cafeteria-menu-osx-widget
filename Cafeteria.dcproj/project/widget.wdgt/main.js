@@ -18,8 +18,7 @@ function load()
 // Function: remove()
 // Called when the widget has been removed from the Dashboard
 //
-function remove()
-{
+function remove() {
     // Stop any timers to prevent CPU usage
     // Remove any preferences as needed
     // widget.setPreferenceForKey(null, dashcode.createInstancePreferenceKey("your-key"));
@@ -29,8 +28,7 @@ function remove()
 // Function: hide()
 // Called when the widget has been hidden
 //
-function hide()
-{
+function hide() {
     // Stop any timers to prevent CPU usage
 }
 
@@ -39,7 +37,7 @@ function hide()
 // Called when the widget has been shown
 //
 function show() {
-    // Restart any timers that were stopped on hide
+    
 }
 
 //
@@ -100,6 +98,9 @@ function showFront(event)
     if (window.widget) {
         setTimeout('widget.performTransition();', 0);
     }
+    
+    WIDGET.savePrefs();
+    WIDGET.updateView();
 }
 
 if (window.widget) {

@@ -48,11 +48,7 @@ h1 {
     font-size: 120%;
     padding-bottom: 0px;
     margin-bottom: 0.1em;
-}
-
-h1 a {
-    color: rgb(241, 241, 241);
-    text-decoration: none;
+    cursor: pointer;
 }
 
 #done {
