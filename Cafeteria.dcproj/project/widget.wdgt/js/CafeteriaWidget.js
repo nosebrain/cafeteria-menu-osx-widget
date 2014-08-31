@@ -32,11 +32,29 @@ function CafeteriaWidget() {
     }
 }
 
+function addDays(date, days) {
+    var result = new Date(date);
+    result.setDate(date.getDate() + days);
+    return result;
+}
+
 CafeteriaWidget.prototype.gotInformation = function(infos) {
     this.prefs.savePref(PREF_INFO_KEY, infos, true);
     this.infos = infos;
     this.loadPrefs();
     this.prepareSettings();
+    this.prepareView();
+}
+
+CafeteriaWidget.prototype.prepareView = function() {
+    $('#actionMenu li').click(function() {
+        $(this).siblings('.active').removeClass('active');
+        $(this).addClass('active');
+        var dayIndex = $(this).index();
+        var day = dayIndex + 1;
+        $('.daycontainer').hide();
+        $($('.daycontainer').get(dayIndex)).show();
+    });
 }
 
 CafeteriaWidget.prototype.loadPrefs = function() {
@@ -82,10 +100,21 @@ CafeteriaWidget.prototype.updateView = function() {
 }
 
 CafeteriaWidget.prototype.updateMenu = function(menu) {
+    var splittedDate = menu.weekStart.split('.');
+    var date = new Date();
+    date.setFullYear(splittedDate[2]);
+    date.setMonth(splittedDate[1] - 1, splittedDate[0]);
+    
+    alert(date);
+
     var cafeteriaWidget = this;
     $(menu.days).each(function(index, day) {
-        var dayUI = $('<div id="day' + (index + 1) + '" class="day"></div>');
-        $("#menu").append(dayUI);
+        var containerUI = $('<div id="day' + (index + 1) + '" class="daycontainer"></div>');
+        var dayUI = $('<div class="day"></div>');
+        var dayInfoUI = $('<div class="infoSidebar"></div>').text(date.format('ddd') + ", " + date.format('dd') + "." + date.format('mm') + "." + date.format('yy'));
+        $("#menu").append(containerUI);
+        containerUI.append(dayInfoUI);
+        containerUI.append(dayUI);
         var row;
         $(day.food).each(function(index, food) {
             if (index % 2 == 0) {
@@ -106,25 +135,16 @@ CafeteriaWidget.prototype.updateMenu = function(menu) {
             var priceUI = $('<div class="cell price"></div>');
             row.append(priceUI);
         }
+        
+        date = addDays(date, 1);
     });
     
-    $('#infoSidebar').data('date', menu.weekStart);
     this.showCurrentDay();
 }
 
 CafeteriaWidget.prototype.showCurrentDay = function() {
-    $('.day').hide();
-    $('.day').first().show(); // TODO:
-    var splittedDate = $('#infoSidebar').data('date').split('.');
-    var startDate = new Date();
-    startDate.setFullYear(splittedDate[2]);
-    startDate.setMonth(splittedDate[1] - 1, splittedDate[0]);
-    
-    // TODO: add time
-    
-    $('#infoSidebar').text(startDate.format('ddd') + ", " + startDate.format('dd') + "." + startDate.format('mm') + "." + startDate.format('yy'));
-    
-    alert(startDate);
+    $('.daycontainer').hide();
+    $('.daycontainer').first().show(); // TODO:
 }
 
 CafeteriaWidget.prototype.prepareSettings = function() {

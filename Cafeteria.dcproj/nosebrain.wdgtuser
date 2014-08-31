@@ -4,23 +4,23 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
+		<key>widget.wdgt/js/CafeteriaWidget.js:127</key>
+		<string>-updateMenu</string>
 		<key>widget.wdgt/js/CafeteriaWidget.js:17</key>
 		<string>-CafeteriaWidget</string>
 		<key>widget.wdgt/js/CafeteriaWidget.js:18</key>
 		<string>-CafeteriaWidget</string>
 		<key>widget.wdgt/js/CafeteriaWidget.js:33</key>
 		<string>-CafeteriaWidget</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:36</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:42</key>
 		<string>-gotInformation</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:61</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:79</key>
 		<string>-savePrefs</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:63</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:81</key>
 		<string>-savePrefs</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:98</key>
-		<string>-updateMenu</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{1275, 102}</string>
+	<string>{1187, 83}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
