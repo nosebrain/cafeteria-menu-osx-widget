@@ -78,8 +78,27 @@ h1 {
 
 .cell.price {
     width: 20px;
+    height: 75px;
     border-left: none;
     -webkit-transform: rotate(-90deg) translate(0px, 30px);
+}
+
+#menu {
+    margin-top: -17px;
+    margin-left: 16px;
+}
+
+#infoSidebar {
+    font-size: 90%;
+    font-weight: bold;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 163.5px;
+    -webkit-transform: rotate(-90deg) translate(-77px, -75px);
 }
 
 #done {
@@ -104,3 +123,6 @@ h1 {
     bottom: auto;
     margin-top: 0px;
 }
+
+
+

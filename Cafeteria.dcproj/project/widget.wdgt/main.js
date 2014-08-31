@@ -8,8 +8,7 @@ var WIDGET;
 // Function: load()
 // Called by HTML body element's onload event when the widget is ready to start
 //
-function load()
-{
+function load() {
     dashcode.setupParts();
     WIDGET = new CafeteriaWidget();
 }
@@ -19,8 +18,8 @@ function load()
 // Called when the widget has been removed from the Dashboard
 //
 function remove() {
-    // Stop any timers to prevent CPU usage
     // Remove any preferences as needed
+    // TODO: 
     // widget.setPreferenceForKey(null, dashcode.createInstancePreferenceKey("your-key"));
 }
 
@@ -44,14 +43,7 @@ function show() {
 // Function: sync()
 // Called when the widget has been synchronized with .Mac
 //
-function sync()
-{
-    // Retrieve any preference values that you need to be synchronized here
-    // Use this for an instance key's value:
-    // instancePreferenceValue = widget.preferenceForKey(null, dashcode.createInstancePreferenceKey("your-key"));
-    //
-    // Or this for global key's value:
-    // globalPreferenceValue = widget.preferenceForKey(null, "your-key");
+function sync() {
 }
 
 //
