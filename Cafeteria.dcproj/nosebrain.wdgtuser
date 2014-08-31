@@ -4,17 +4,17 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
-		<key>widget.wdgt/js/CafeteriaWidget.js:24</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:15</key>
 		<string>-CafeteriaWidget</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:27</key>
+		<key>widget.wdgt/js/CafeteriaWidget.js:16</key>
+		<string>-CafeteriaWidget</string>
+		<key>widget.wdgt/js/CafeteriaWidget.js:31</key>
+		<string>-CafeteriaWidget</string>
+		<key>widget.wdgt/js/CafeteriaWidget.js:34</key>
 		<string>-gotInformation</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:8</key>
-		<string>-CafeteriaWidget</string>
-		<key>widget.wdgt/js/CafeteriaWidget.js:9</key>
-		<string>-CafeteriaWidget</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{641, 156}</string>
+	<string>{1120, 244}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -25,8 +25,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {1375, 648}}</string>
-			<string>{{0, 658}, {1375, 284}}</string>
+			<string>{{0, 0}, {1375, 430}}</string>
+			<string>{{0, 440}, {1375, 502}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
