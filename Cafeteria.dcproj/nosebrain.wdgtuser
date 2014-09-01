@@ -20,7 +20,7 @@
 		<string>-savePrefs</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{1003, 319}</string>
+	<string>{999, 178}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -31,8 +31,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {1375, 470}}</string>
-			<string>{{0, 480}, {1375, 218}}</string>
+			<string>{{0, 0}, {1375, 119.5}}</string>
+			<string>{{0, 129.5}, {1375, 568.5}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>

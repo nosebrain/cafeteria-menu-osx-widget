@@ -22,6 +22,11 @@ body {
     padding: 10px 20px;
 }
 
+#infoText {
+    margin-top: 5px;
+    font-size: 50%;
+}
+
 #front {
     background-color: rgb(10, 50, 115);
     color: rgb(241, 241, 241);
