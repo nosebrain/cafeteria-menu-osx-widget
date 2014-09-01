@@ -20,7 +20,7 @@
 		<string>-savePrefs</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{1187, 83}</string>
+	<string>{1003, 319}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -31,8 +31,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {1375, 430}}</string>
-			<string>{{0, 440}, {1375, 502}}</string>
+			<string>{{0, 0}, {1375, 470}}</string>
+			<string>{{0, 480}, {1375, 218}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
@@ -58,12 +58,12 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {244, 963}}</string>
-			<string>{{245, 0}, {1376, 963}}</string>
+			<string>{{0, 0}, {244, 719}}</string>
+			<string>{{245, 0}, {1376, 719}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>58 44 1620 984 0 0 1680 1028 </string>
+	<string>78 180 1620 740 0 0 1680 1028 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -74,8 +74,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 490.5}}</string>
-			<string>{{0, 500.5}, {246, 441.5}}</string>
+			<string>{{0, 0}, {246, 362}}</string>
+			<string>{{0, 372}, {246, 326}}</string>
 		</array>
 	</dict>
 	<key>Widget</key>
