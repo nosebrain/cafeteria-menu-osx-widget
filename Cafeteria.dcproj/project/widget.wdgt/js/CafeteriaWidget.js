@@ -139,6 +139,8 @@ CafeteriaWidget.prototype.updateMenu = function(menu) {
         date = addDays(date, 1);
     });
     
+    $('#infoText').text(menu.foodInfo);
+    
     this.showCurrentDay();
 }
 
